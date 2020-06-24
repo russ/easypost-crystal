@@ -2,7 +2,6 @@ require "spec"
 require "../src/easypost"
 
 EasyPost.configure do |settings|
-  # settings.api_key = "8nVQvoUJcBMxkfnRIaq8aw"
   settings.api_key = "BmvaWhg8mP26QXWdTplYWA"
 end
 
