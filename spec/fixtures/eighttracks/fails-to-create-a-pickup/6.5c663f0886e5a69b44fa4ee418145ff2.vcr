@@ -1,0 +1,21 @@
+HTTP/1.1 422 Unknown
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-ep-request-uuid: 48cf46545ef3a4a0fba781d1000c3e84
+cache-control: no-cache, no-store, must-revalidate, private
+pragma: no-cache
+expires: 0
+content-type: application/json; charset=utf-8
+content-length: 118
+x-runtime: 0.036545
+x-node: bigweb7sj
+x-version-label: easypost-202006240014-cc47417ca8-master
+x-backend: easypost
+x-canary: direct
+x-proxied: intlb2sj 1761debadf
+x-proxied: intlb1wdc 1761debadf
+x-proxied: extlb1wdc 8e4fe1ff51
+strict-transport-security: max-age=15768000; includeSubDomains; preload
+
+{"error":{"code":"PICKUP.MIN_DATETIME.REQUIRED","message":"Invalid request, 'min_datetime' is required.","errors":[]}}

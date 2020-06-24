@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-ep-request-uuid: 2b1304425ef3b7c3fba6614f000ef3cb
+cache-control: no-cache, no-store, must-revalidate, private
+pragma: no-cache
+expires: 0
+content-type: application/json; charset=utf-8
+content-length: 699
+x-runtime: 0.050340
+x-node: bigweb6sj
+x-version-label: easypost-202006241942-ea993e0df7-master
+x-backend: easypost
+x-proxied: intlb1sj 1761debadf
+x-proxied: extlb1sj 8e4fe1ff51
+strict-transport-security: max-age=15768000; includeSubDomains; preload
+
+{"id":"shprep_ec48d32260a0495c8957fc24a994409e","object":"ShipmentReport","created_at":"2020-06-24T20:15:35Z","updated_at":"2020-06-24T20:15:36Z","start_date":"2020-05-24","end_date":"2020-06-24","mode":"test","status":"available","url":"https://easypost-files.s3-us-west-2.amazonaws.com/files/shipment_report/20200624/shprep_ec48d32260a0495c8957fc24a994409e.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIOR7PKFCRZS3YA6Q%2F20200624%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200624T202956Z&X-Amz-Expires=30&X-Amz-SignedHeaders=host&X-Amz-Signature=f5038678d65f06c56ea9a35cb04d16c7259c1b43a58e0403b832b9988989641b","url_expires_at":"2020-06-24T20:30:26+00:00","include_children":false}

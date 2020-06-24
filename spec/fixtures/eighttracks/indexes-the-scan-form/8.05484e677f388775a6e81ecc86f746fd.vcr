@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-ep-request-uuid: 9b621f3e5ef3c53ffba7101d0002b240
+cache-control: no-cache, no-store, must-revalidate, private
+pragma: no-cache
+expires: 0
+content-type: application/json; charset=utf-8
+content-length: 1778
+x-runtime: 0.049355
+x-node: bigweb8sj
+x-version-label: easypost-202006241942-ea993e0df7-master
+x-backend: easypost
+x-proxied: intlb1sj 1761debadf
+x-proxied: extlb2sj 8e4fe1ff51
+strict-transport-security: max-age=15768000; includeSubDomains; preload
+
+{"scan_forms":[{"id":"sf_f71bf204bb2749ba97401428d32c4f42","object":"ScanForm","created_at":"2020-06-24T21:27:26Z","updated_at":"2020-06-24T21:27:27Z","tracking_codes":["CM218255085US"],"address":{"id":"adr_866696c5be904af598e575a1227f2b4e","object":"Address","created_at":"2020-06-24T21:27:24Z","updated_at":"2020-06-24T21:27:24Z","name":null,"company":"EasyPost","street1":"164 Townsend Street","street2":"Unit 1","city":"San Francisco","state":"CA","zip":"94107","country":"US","phone":"4151234567","email":null,"mode":"test","carrier_facility":null,"residential":null,"federal_tax_id":null,"state_tax_id":null,"verifications":{}},"status":"created","message":null,"form_url":"https://easypost-files.s3-us-west-2.amazonaws.com/files/scan_form/20200624/d3144072289243e790b33aa4a038ad38.pdf","form_file_type":null,"batch_id":"batch_4112ee1943ac4e3b88101a0301c6cd2a","confirmation":null},{"id":"sf_b1bf9b714084407283b0d54c3ec5956b","object":"ScanForm","created_at":"2020-06-24T21:26:47Z","updated_at":"2020-06-24T21:26:47Z","tracking_codes":["CM218255077US"],"address":{"id":"adr_9a7ba7bfb0884803818ae2250fee0661","object":"Address","created_at":"2020-06-24T21:26:42Z","updated_at":"2020-06-24T21:26:42Z","name":null,"company":"EasyPost","street1":"164 Townsend Street","street2":"Unit 1","city":"San Francisco","state":"CA","zip":"94107","country":"US","phone":"4151234567","email":null,"mode":"test","carrier_facility":null,"residential":null,"federal_tax_id":null,"state_tax_id":null,"verifications":{}},"status":"created","message":null,"form_url":"https://easypost-files.s3-us-west-2.amazonaws.com/files/scan_form/20200624/ccd88971739f48f18749b32adfd436aa.pdf","form_file_type":null,"batch_id":"batch_357947c36d94439b8a7fedbeb0e79f77","confirmation":null}],"has_more":true}

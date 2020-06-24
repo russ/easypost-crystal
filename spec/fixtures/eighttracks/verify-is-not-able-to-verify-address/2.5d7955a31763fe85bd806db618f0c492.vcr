@@ -1,0 +1,19 @@
+HTTP/1.1 422 Unknown
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-ep-request-uuid: ddba978c5ef3839efb9712ac001118f4
+cache-control: no-cache, no-store, must-revalidate, private
+pragma: no-cache
+expires: 0
+content-type: application/json; charset=utf-8
+content-length: 176
+x-runtime: 0.036869
+x-node: bigweb2sj
+x-version-label: easypost-202006240014-cc47417ca8-master
+x-backend: easypost
+x-proxied: intlb1sj 1761debadf
+x-proxied: extlb1sj 8e4fe1ff51
+strict-transport-security: max-age=15768000; includeSubDomains; preload
+
+{"error":{"code":"ADDRESS.VERIFY.FAILURE","message":"Unable to verify address.","errors":[{"code":"E.INPUT.INVALID","field":"street1","message":"Required","suggestion":null}]}}

@@ -1,0 +1,22 @@
+name: easypost
+version: 0.1.0
+
+authors:
+  - Russ Smith <russ@bashme.org>
+
+crystal: 0.31.1
+
+license: MIT
+
+dependencies:
+  habitat:
+    github: luckyframework/habitat
+    version: 0.4.3
+  dexter:
+    github: luckyframework/dexter
+    version: ~> 0.3
+
+development_dependencies:
+  eighttrack:
+    github: russ/eighttrack
+    branch: master

@@ -1,0 +1,19 @@
+HTTP/1.1 422 Unknown
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-ep-request-uuid: 9b621f435ef3ce85fba78ece0004e42c
+cache-control: no-cache, no-store, must-revalidate, private
+pragma: no-cache
+expires: 0
+content-type: application/json; charset=utf-8
+content-length: 192
+x-runtime: 1.476939
+x-node: bigweb8sj
+x-version-label: easypost-202006241942-ea993e0df7-master
+x-backend: easypost
+x-proxied: intlb2sj 1761debadf
+x-proxied: extlb2sj 8e4fe1ff51
+strict-transport-security: max-age=15768000; includeSubDomains; preload
+
+{"error":{"code":"SCAN_FORM.CREATE.FAILURE","message":"Unable to create manifest. 1 of the specified shipments have already been manifested: shp_440ab62fec6c4f4e846cf923cc3e562b","errors":[]}}

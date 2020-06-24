@@ -1,0 +1,21 @@
+HTTP/1.1 201 Created
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-ep-request-uuid: 58185fda5ef3a69dfba5d4aa000d2382
+cache-control: no-cache, no-store, must-revalidate, private
+pragma: no-cache
+expires: 0
+location: /api/v2/addresses/adr_bf07242b86f6406c8a2fe53c9c4725e8
+content-type: application/json; charset=utf-8
+content-length: 437
+x-runtime: 0.040107
+x-node: bigweb6sj
+x-version-label: easypost-202006240014-cc47417ca8-master
+x-backend: easypost
+x-proxied: intlb2sj 1761debadf
+x-proxied: intlb2wdc 1761debadf
+x-proxied: extlb2wdc 8e4fe1ff51
+strict-transport-security: max-age=15768000; includeSubDomains; preload
+
+{"id":"adr_bf07242b86f6406c8a2fe53c9c4725e8","object":"Address","created_at":"2020-06-24T19:16:45Z","updated_at":"2020-06-24T19:16:45Z","name":null,"company":"EasyPost","street1":"164 Townsend Street","street2":"Unit 1","city":"San Francisco","state":"CA","zip":"94107","country":"US","phone":"4151234567","email":null,"mode":"test","carrier_facility":null,"residential":null,"federal_tax_id":null,"state_tax_id":null,"verifications":{}}

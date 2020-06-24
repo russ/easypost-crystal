@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-ep-request-uuid: 48cf465a5ef3a55dfba78270000c7377
+cache-control: no-cache, no-store, must-revalidate, private
+pragma: no-cache
+expires: 0
+content-type: application/json; charset=utf-8
+content-length: 1187
+x-runtime: 0.511381
+x-node: bigweb4sj
+x-version-label: easypost-202006240014-cc47417ca8-master
+x-backend: easypost
+x-proxied: intlb2sj 1761debadf
+x-proxied: intlb1wdc 1761debadf
+x-proxied: extlb1wdc 8e4fe1ff51
+strict-transport-security: max-age=15768000; includeSubDomains; preload
+
+{"id":"pickup_d0cda691dcef441193e02202efb6f8a5","object":"Pickup","created_at":"2020-06-24T19:11:24Z","updated_at":"2020-06-24T19:11:25Z","mode":"test","status":"scheduled","reference":"buy12345678","min_datetime":"2020-06-25T19:11:23Z","max_datetime":"2020-06-25T19:11:23Z","is_account_address":false,"instructions":"At the front door.","messages":[],"confirmation":"2929602E9CP","address":{"id":"adr_36f8ef948dd741c689681c43dcf3bb26","object":"Address","created_at":"2020-06-24T19:10:46Z","updated_at":"2020-06-24T19:10:46Z","name":null,"company":"Airport Shipping","street1":"601 Brasilia Avenue","street2":null,"city":"Kansas City","state":"MO","zip":"64153","country":"US","phone":"3149240383","email":"kansas_shipping@example.com","mode":"test","carrier_facility":null,"residential":null,"federal_tax_id":null,"state_tax_id":null,"verifications":{}},"carrier_accounts":[],"pickup_rates":[{"mode":"test","service":"Future-day Pickup","rate":"6.16","currency":"USD","created_at":"2020-06-24T19:11:24Z","updated_at":"2020-06-24T19:11:24Z","carrier":"UPS","pickup_id":"pickup_d0cda691dcef441193e02202efb6f8a5","id":"pickuprate_6e8a62fb6d064bc1b182db68d654136c","object":"PickupRate"}]}

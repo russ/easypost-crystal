@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-ep-request-uuid: 48cf46595ef389a8fba5ddae00041d3c
+cache-control: no-cache, no-store, must-revalidate, private
+pragma: no-cache
+expires: 0
+content-type: application/json; charset=utf-8
+content-length: 1488
+x-runtime: 0.185884
+x-node: bigweb11sj
+x-version-label: easypost-202006240014-cc47417ca8-master
+x-backend: easypost
+x-proxied: intlb2sj 1761debadf
+x-proxied: intlb1wdc 1761debadf
+x-proxied: extlb1wdc 8e4fe1ff51
+strict-transport-security: max-age=15768000; includeSubDomains; preload
+
+{"rates":[{"id":"rate_e0ed464c72dc43e68e6b4dd9ce1075d4","object":"Rate","created_at":"2020-06-24T17:13:12Z","updated_at":"2020-06-24T17:13:12Z","mode":"test","service":"Express","carrier":"USPS","rate":"97.80","currency":"USD","retail_rate":"114.65","retail_currency":"USD","list_rate":"97.80","list_currency":"USD","delivery_days":null,"delivery_date":null,"delivery_date_guaranteed":false,"est_delivery_days":null,"shipment_id":"shp_b203531681474f049956e07b45d31deb","carrier_account_id":"ca_GX37kVFk"},{"id":"rate_d8c64f2e891f4140a55d49c8eba68876","object":"Rate","created_at":"2020-06-24T17:13:12Z","updated_at":"2020-06-24T17:13:12Z","mode":"test","service":"Priority","carrier":"USPS","rate":"39.95","currency":"USD","retail_rate":"49.65","retail_currency":"USD","list_rate":"39.95","list_currency":"USD","delivery_days":2,"delivery_date":null,"delivery_date_guaranteed":false,"est_delivery_days":2,"shipment_id":"shp_b203531681474f049956e07b45d31deb","carrier_account_id":"ca_GX37kVFk"},{"id":"rate_803d2d4a22ed4feebb9acbac5edd9210","object":"Rate","created_at":"2020-06-24T17:13:12Z","updated_at":"2020-06-24T17:13:12Z","mode":"test","service":"ParcelSelect","carrier":"USPS","rate":"39.65","currency":"USD","retail_rate":"39.65","retail_currency":"USD","list_rate":"39.65","list_currency":"USD","delivery_days":6,"delivery_date":null,"delivery_date_guaranteed":false,"est_delivery_days":6,"shipment_id":"shp_b203531681474f049956e07b45d31deb","carrier_account_id":"ca_GX37kVFk"}]}

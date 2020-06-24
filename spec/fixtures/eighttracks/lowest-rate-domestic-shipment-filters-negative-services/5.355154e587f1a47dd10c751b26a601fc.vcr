@@ -1,0 +1,21 @@
+HTTP/1.1 404 Not Found
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-ep-request-uuid: 48cf46535ef38957fba5dd720003fdb7
+cache-control: no-cache, no-store, must-revalidate, private
+pragma: no-cache
+expires: 0
+content-type: application/json; charset=utf-8
+content-length: 97
+x-runtime: 0.025710
+x-node: bigweb7sj
+x-version-label: easypost-202006240014-cc47417ca8-master
+x-backend: easypost
+x-canary: direct
+x-proxied: intlb1sj 1761debadf
+x-proxied: intlb2wdc 1761debadf
+x-proxied: extlb1wdc 8e4fe1ff51
+strict-transport-security: max-age=15768000; includeSubDomains; preload
+
+{"error":{"code":"NOT_FOUND","message":"The requested resource could not be found.","errors":[]}}

@@ -1,0 +1,20 @@
+HTTP/1.1 201 Created
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-ep-request-uuid: 0762d6455ef3a67dfba5e1af000aedc3
+cache-control: no-cache, no-store, must-revalidate, private
+pragma: no-cache
+expires: 0
+location: /api/v2/parcels/prcl_61c66386d60c41658b9534b87b98afb0
+content-type: application/json; charset=utf-8
+content-length: 230
+x-runtime: 0.038752
+x-node: bigweb6sj
+x-version-label: easypost-202006240014-cc47417ca8-master
+x-backend: easypost
+x-proxied: intlb1sj 1761debadf
+x-proxied: extlb2sj 8e4fe1ff51
+strict-transport-security: max-age=15768000; includeSubDomains; preload
+
+{"id":"prcl_61c66386d60c41658b9534b87b98afb0","object":"Parcel","created_at":"2020-06-24T19:16:13Z","updated_at":"2020-06-24T19:16:13Z","length":16.5,"width":12.0,"height":9.5,"predefined_package":null,"weight":40.1,"mode":"test"}

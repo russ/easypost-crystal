@@ -1,0 +1,21 @@
+HTTP/1.1 201 Created
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-ep-request-uuid: 48cf465a5ef383a1fba565ab000257e8
+cache-control: no-cache, no-store, must-revalidate, private
+pragma: no-cache
+expires: 0
+location: /api/v2/addresses/adr_b275a4a2b7624eb0bf25264d21e67861
+content-type: application/json; charset=utf-8
+content-length: 439
+x-runtime: 0.035649
+x-node: bigweb6sj
+x-version-label: easypost-202006240014-cc47417ca8-master
+x-backend: easypost
+x-proxied: intlb1sj 1761debadf
+x-proxied: intlb2wdc 1761debadf
+x-proxied: extlb1wdc 8e4fe1ff51
+strict-transport-security: max-age=15768000; includeSubDomains; preload
+
+{"id":"adr_b275a4a2b7624eb0bf25264d21e67861","object":"Address","created_at":"2020-06-24T16:47:29Z","updated_at":"2020-06-24T16:47:29Z","name":null,"company":"Simpler Postage Inc","street1":"388 Junk Teerts","street2":"Apt 20","city":"San Francisco","state":"CA","zip":"941abc07","country":"US","phone":null,"email":null,"mode":"test","carrier_facility":null,"residential":null,"federal_tax_id":null,"state_tax_id":null,"verifications":{}}

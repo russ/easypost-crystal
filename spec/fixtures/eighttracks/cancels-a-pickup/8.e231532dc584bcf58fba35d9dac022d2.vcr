@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-ep-request-uuid: 48cf465a5ef3a6e1fba78ece000cf057
+cache-control: no-cache, no-store, must-revalidate, private
+pragma: no-cache
+expires: 0
+content-type: application/json; charset=utf-8
+content-length: 1159
+x-runtime: 0.388886
+x-node: bigweb9sj
+x-version-label: easypost-202006240014-cc47417ca8-master
+x-backend: easypost
+x-proxied: intlb1sj 1761debadf
+x-proxied: intlb1wdc 1761debadf
+x-proxied: extlb1wdc 8e4fe1ff51
+strict-transport-security: max-age=15768000; includeSubDomains; preload
+
+{"id":"pickup_ce28851b5d334eb5b795300edff77691","object":"Pickup","created_at":"2020-06-24T19:17:52Z","updated_at":"2020-06-24T19:17:54Z","mode":"test","status":"canceled","reference":"buy12345678","min_datetime":"2020-06-25T19:17:51Z","max_datetime":"2020-06-25T19:17:51Z","is_account_address":false,"instructions":"At the front door.","messages":[],"confirmation":"2929602E9CP","address":{"id":"adr_d93a5a80aba74c2bac2a28fb59c5dd68","object":"Address","created_at":"2020-06-24T19:15:48Z","updated_at":"2020-06-24T19:15:48Z","name":null,"company":"EasyPost","street1":"164 Townsend Street","street2":"Unit 1","city":"San Francisco","state":"CA","zip":"94107","country":"US","phone":"4151234567","email":null,"mode":"test","carrier_facility":null,"residential":null,"federal_tax_id":null,"state_tax_id":null,"verifications":{}},"carrier_accounts":[],"pickup_rates":[{"mode":"test","service":"Future-day Pickup","rate":"6.16","currency":"USD","created_at":"2020-06-24T19:17:52Z","updated_at":"2020-06-24T19:17:52Z","carrier":"UPS","pickup_id":"pickup_ce28851b5d334eb5b795300edff77691","id":"pickuprate_04d2c5bb60874c099ebc6d454ca92ffb","object":"PickupRate"}]}

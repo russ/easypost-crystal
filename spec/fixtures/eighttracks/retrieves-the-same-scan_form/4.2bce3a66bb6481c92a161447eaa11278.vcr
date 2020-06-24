@@ -1,0 +1,21 @@
+HTTP/1.1 201 Created
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-ep-request-uuid: bc231ecd5ef3ce80fba77a4f0006e18b
+cache-control: no-cache, no-store, must-revalidate, private
+pragma: no-cache
+expires: 0
+location: /api/v2/customs_infos/cstinfo_4ef2b75e44d04607b188c71b77738689
+content-type: application/json; charset=utf-8
+content-length: 744
+x-runtime: 0.048109
+x-node: bigweb8sj
+x-version-label: easypost-202006241942-ea993e0df7-master
+x-backend: easypost
+x-proxied: intlb2sj 1761debadf
+x-proxied: intlb1wdc 1761debadf
+x-proxied: extlb2wdc 8e4fe1ff51
+strict-transport-security: max-age=15768000; includeSubDomains; preload
+
+{"id":"cstinfo_4ef2b75e44d04607b188c71b77738689","object":"CustomsInfo","created_at":"2020-06-24T22:06:56Z","updated_at":"2020-06-24T22:06:56Z","contents_explanation":"","contents_type":"gift","customs_certify":true,"customs_signer":"Dr. Pepper","eel_pfc":"NOEEI 30.37(a)","non_delivery_option":"abandon","restriction_comments":null,"restriction_type":"none","mode":"test","declaration":null,"customs_items":[{"id":"cstitem_9c0a9e683f7d4f67b81ef30d001d470f","object":"CustomsItem","created_at":"2020-06-24T22:06:56Z","updated_at":"2020-06-24T22:06:56Z","description":"EasyPost T-shirts","hs_tariff_number":"123456","origin_country":"US","quantity":2,"value":"23.56","weight":20.0,"code":null,"mode":"test","manufacturer":null,"currency":null}]}

@@ -1,0 +1,20 @@
+HTTP/1.1 201 Created
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-ep-request-uuid: c1e0a3865ef286fdfbb6d86c0006b33c
+cache-control: no-cache, no-store, must-revalidate, private
+pragma: no-cache
+expires: 0
+location: /api/v2/addresses/adr_02a88719c3df4b019800af40315ca849
+content-type: application/json; charset=utf-8
+content-length: 464
+x-runtime: 0.027858
+x-node: bigweb11sj
+x-version-label: easypost-202006230022-4fe039c154-master
+x-backend: easypost
+x-proxied: intlb2sj 1761debadf
+x-proxied: extlb1sj 8e4fe1ff51
+strict-transport-security: max-age=15768000; includeSubDomains; preload
+
+{"id":"adr_02a88719c3df4b019800af40315ca849","object":"Address","created_at":"2020-06-23T22:49:33Z","updated_at":"2020-06-23T22:49:33Z","name":null,"company":"Airport Shipping","street1":"601 Brasilia Avenue","street2":null,"city":"Kansas City","state":"MO","zip":"64153","country":"US","phone":"3149240383","email":"kansas_shipping@example.com","mode":"test","carrier_facility":null,"residential":null,"federal_tax_id":null,"state_tax_id":null,"verifications":{}}
