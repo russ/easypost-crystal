@@ -93,17 +93,19 @@ module EasyPost
   end
 
   class Shipment < Resource
+    include LowestRate
+
     property id : String?
     property object : String = "Shipment"
     property reference : String?
     property mode : String?
     property created_at : Time?
     property updated_at : Time?
-    property to_address : Address
-    property from_address : Address
+    property to_address : Address?
+    property from_address : Address?
     property return_address : Address?
     property buyer_address : Address?
-    property parcel : Parcel
+    property parcel : Parcel?
     property carrier : String?
     property service : String?
     property carrier_accounts : Array(String)?
@@ -126,49 +128,6 @@ module EasyPost
     property batch_id : String?
     property batch_status : String?
     property batch_message : String?
-
-    def lowest_rate(carriers : Array(String) = [] of String, services : Array(String) = [] of String)
-      get_rates if rates.nil?
-
-      lowest_rate = nil
-      carriers = carriers.map(&.downcase)
-      services = services.map(&.downcase)
-
-      negative_carriers = [] of String
-      negative_services = [] of String
-
-      carriers.clone.each do |carrier|
-        if carrier[0, 1] == "!"
-          negative_carriers << carrier[1..-1]
-          carriers.delete(carrier)
-        end
-      end
-
-      services.clone.each do |service|
-        if service[0, 1] == "!"
-          negative_services << service[1..-1]
-          services.delete(service)
-        end
-      end
-
-      rates.not_nil!.each do |rate|
-        rate_carrier = rate.carrier.not_nil!.downcase
-        next if carriers.size > 0 && !carriers.includes?(rate_carrier)
-        next if negative_carriers.size > 0 && negative_carriers.includes?(rate_carrier)
-
-        rate_service = rate.service.not_nil!.downcase
-        next if services.size > 0 && !services.includes?(rate_service)
-        next if negative_services.size > 0 && negative_services.includes?(rate_service)
-
-        if lowest_rate.nil? || rate.rate.to_f < lowest_rate.not_nil!.rate.to_f
-          lowest_rate = rate
-        end
-      end
-
-      raise Error.new("No rates found.") if lowest_rate.nil?
-
-      lowest_rate
-    end
 
     def buy(rate)
       response = JSON.parse(EasyPost.make_request("POST", "#{path}/buy", {rate: rate}))

@@ -1,5 +1,7 @@
 module EasyPost
   class Order < Resource
+    include LowestRate
+
     property id : String?
     property object : String?
     property reference : String?
