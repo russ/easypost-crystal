@@ -130,7 +130,7 @@ module EasyPost
     property batch_message : String?
 
     def buy(rate)
-      response = JSON.parse(EasyPost.make_request("POST", "#{path}/buy", {carrier: rate, service: service}))
+      response = JSON.parse(EasyPost.make_request("POST", "#{path}/buy", {carrier: rate.carrier, service: rate.service}))
       self.class.from_json(response.to_json)
     end
 
